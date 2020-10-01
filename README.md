@@ -11,4 +11,4 @@ Faget indeholder emner som bl.a.:
 *Designtænkning
 *Desingprincipper - Herunder farvelære, koposition, typografi og billedlære
 
-[Du kan læsemere om Aspit på [Aspit.dk](https://aspit.dk)
+[Du kan læse mere om Aspit på [Aspit.dk](https://aspit.dk)

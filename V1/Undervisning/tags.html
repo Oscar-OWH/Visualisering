@@ -1,13 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- DOCTYPE html sætter kode sproget til html samt fortæller browseren af dennne hjemmeside er skreven i html -->
 <html lang="en">
 <head>
+    <!-- Head holder data og info, det meste kan ikke ses af brugeren -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML tags</title>
 </head>
+<!-- Body er selve kroppen af hjemmesiden. links, tekst, billeder, videoer. alt en bruger normalt ville kigge/snuse til -->
 <body>
     <header>
-        <a href="tags.html">HTML intro</a>
+        <!-- Header en den bar der følger med dig rundt på hjemmesiden. headeren er altid på toppen af hjemmesiden -->
+        <!-- a er et link det link kan gå til andre steder på samme hjemmeside eller, andre hjemmesider.  -->
+        <a href="tags.html">HTML intro</a> 
         <a href="index.html">CSS intro</a>
         <a href="colors.html">CSS farver</a>
         <a href="fonte.html">CSS tekst</a>
@@ -17,23 +22,30 @@
         <a href="position.html">CSS positioning</a>
         <a href="menuer.html">CSS menuer</a>
         <a href="formularer.html">HTML formularer</a>
+        <!-- href er det sted den skal sende dig hen. det der imellem a tags'ne er den tekst du trykker på. -->
     </header>
-
+    <!-- Main er alt "Main" info på hjemmesiden, den er den man normalt skifter på med ny tekst, billeder, videoer. -->
     <main>
-        <section>
+        <section> 
+            <!-- Section opdeler emner f.eks af man taler om goj' raj' men så taler man så pluselig om batmand det er der man ville bruge en section.  -->
             <article>
+                <!-- article opdeler emner som har noget med henanden af gøre f.eks du taler om goj' raj' igen og så taller du om opskreften og det graj man skal bruge til af lave de der småkager. der ville man bruge en article.  -->
                 <h1>HTML tags</h1>
-
+                <!-- h1 er en overtekst, det er den største af h1 - h6 tags'ne. der må ikke være mere end en super mege omega oreon overtekst, ellers tror google/andre af det er en spam side.  -->
                 <p>HTML kode består af tags - i næsten alle tilfælde et start tag og et slut-tag.</p>
                 <p>Start-tag og slut-tag er altid ens, bortset fra at slut-tags indeholder en skråstreg, som fortæller, at her slutter det område, som du startede med dit start-tag.</p>
                 <p>Teksten her er f.eks. placeret mellem et p-starttag og et p-sluttag. P står for paragraph og angiver, at dette er et tekstafsnit.</p>
                 <p>Nogle få tags har ikke et sluttag - f.eks. img-tagget, som man bruger til at indsætte billeder:</p>
+                <!-- p (paragrafer) det er en tekst block, det den handler om står normalt oversig i overteksten. -->
                 <img src="img/indsaet-billede.jpg">
+                <!-- scr er saus o baus, giv scr et navn på mappen og billede samt fileformat -->
+                <!-- img putter en billede på hjemmesiden, så længe du fortæller den hvor der er et billede. -->
             </article>
             <article>
                 <h2>De grundlæggende tags</h2>
-
+                <!-- h2 er ligesom h1, den er bare lidt mindre en h1 men stadig større end h3 og h4 og h5 og h6. -->
                 <ul>
+                    <!-- ul (unordered list) gør af i stedet for af vise nummre visser den cirler, firkanter. stiller også <li> op i en liste format. -->
                     <li>html - start- og sluttag - omslutter hele din HTML-kode</li>
                     <li>head - start- og sluttag - indeholder informationer om siden, som brugeren ikke får at se</li>
                     <li>body - start- og sluttag - alt det indhold, som brugeren ser</li>
@@ -46,6 +58,7 @@
                     <li>ul - start- og sluttag - "unordered list" - angiver en punktopstilling med punkttegn</li>
                     <li>ol - start- og sluttag - "ordered list" - angiver en punktopstilling med tal eller bogstaver</li>
                     <li>li - start- og sluttag - "list item" - angiver et element i en punktopstilling</li>
+                    <!-- li (list?) er stortset bare en <p> til <ul> <ol> man skriver bare den tekst ind man vil. -->
                 </ul>
             </article>
             <article>
@@ -64,7 +77,7 @@
                 <p>Header og footer går igen på alle sider og main indeholder de elementer, som er unikke på hver side.</p>
 
                 <p>Se eksempel på header og footer på <a href="https://www.vojensskøjteklub.dk/" target="_blank">Vojens Skøjteklubs hjemmeside</a>.</p>
-
+                <!-- target="_blank" åbender en ny side, med det link du trykket på.  -->
                 <p>Main indeholder derudover section og article. En section kan indeholde flere articles og main kan indeholde flere sections.</p>
 
                 <p>Se eksempel på sections og articles på <a href="https://www.danfoss.com/da-dk/" target="_blank">Danfoss' hjemmeside</a>.</p>
