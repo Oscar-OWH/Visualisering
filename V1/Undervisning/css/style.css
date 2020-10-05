@@ -1,0 +1,30 @@
+body
+{
+    color: cadetblue;
+    background-color: gainsboro;
+}
+
+h1,h2
+{
+    background-color: azure;
+}
+
+h1
+{
+    color:midnightblue;
+}
+
+h2
+{
+    color:steelblue;
+}
+nav,header,footer a
+{
+    background-color: tomato;
+    height: 50px;
+}
+header a,footer
+{
+    color: gainsboro;
+    text-decoration: none;
+}
