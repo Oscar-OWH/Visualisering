@@ -1,20 +1,21 @@
-body
+body /* alt tekst inde for body har den her farve.*/
 {
-    color: darkslategray;
+    color: hsl(180, 25%, 25%);
 }
-nav
+nav /* baggrunden af navigation bliver lavet til den her farve.*/
 {
-    background-color: midnightblue;
+    background-color: hsl(240, 64%, 27%);
 }
-nav a
+nav a /*alle links under <nav>-taget har den her farve og har ingen understreg*/
 {
-    color: mintcream;
+    color: hsl(150, 100%, 98%);
+    text-decoration: none;
 }
-h1,h2,h3 /*brugte h3 i stedet for h2*/
+h1,h2,h3 /*gøre at h1 h2 h3 er den farve.. brugte h3 i stedet for h2 til nogle overtekster.*/
 {
-    color: midnightblue;
+    color: hsl(240, 64%, 27%);
 }
-ul
+ul /*gøre af dutterne ud fra listen er en vise farve*/
 {
-    color:steelblue;
+    color:hsl(207, 44%, 49%);
 }
