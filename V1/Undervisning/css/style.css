@@ -1,3 +1,4 @@
+/* /* */ /*to end the pain*/
 body
 {
     color: cadetblue;
@@ -11,20 +12,51 @@ h1,h2
 
 h1
 {
+   background-color: greenyellow;
     color:midnightblue;
 }
 
 h2
 {
+    background-color: lightyellow;
     color:steelblue;
+}
+p
+{
+    background-color: yellow;
+}
+ul
+{
+background-color: silver;
+}
+li
+{
+    background-color: plum;
+}
+a
+{
+    background-color: rosybrown;
 }
 nav,header,footer a
 {
     background-color: tomato;
     height: 50px;
 }
+main
+{
+    background-color: gold;
+}
+section
+{
+    background-color: mediumpurple;
+}
+article
+{
+    background-color: bisque;
+}
 header a,footer
 {
     color: gainsboro;
     text-decoration: none;
 }
+ /* *!/ */ /*is to hide it, on bad days*/
