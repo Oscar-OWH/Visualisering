@@ -1,21 +1,37 @@
 body /* alt tekst inde for body har den her farve.*/
 {
-    color: hsl(180, 25%, 25%);
+    background-color: hsl(0,0%,100%);
 }
+
 nav /* baggrunden af navigation bliver lavet til den her farve.*/
 {
-    background-color: hsl(240, 64%, 27%);
+    background-color: hsl(238.2,24.8%,26.1%);
 }
+
 nav a /*alle links under <nav>-taget har den her farve og har ingen understreg*/
 {
-    color: hsl(150, 100%, 98%);
+    color: hsl(203.6,100%,78%);
     text-decoration: none;
+    font-size: larger;
+    font-family: monospace;
 }
+
+a 
+{
+    color: hsl(17.9,89.5%,62.5%);
+    text-decoration: none;
+} 
 h1,h2,h3 /*gøre at h1 h2 h3 er den farve.. brugte h3 i stedet for h2 til nogle overtekster.*/
 {
-    color: hsl(240, 64%, 27%);
+    color: hsl(295.4,16%,15.9%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+p
+{
+    color: hsl(271.8,13.8%,24.1%); 
+}
+
 ul /*gøre af dutterne ud fra listen er en vise farve*/
 {
-    color:hsl(207, 44%, 49%);
+    color:hsl(312.9,25.5%,21.6%);
 }
