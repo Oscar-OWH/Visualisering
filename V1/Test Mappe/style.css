@@ -1,6 +1,8 @@
 body /* alt tekst inde for body har den her farve.*/
 {
     background-color: hsl(0,0%,100%);
+    font-family: 'Work Sans';
+    font-weight: 400;
 }
 
 nav /* baggrunden af navigation bliver lavet til den her farve.*/
@@ -24,7 +26,24 @@ a
 h1,h2,h3 /*gøre at h1 h2 h3 er den farve.. brugte h3 i stedet for h2 til nogle overtekster.*/
 {
     color: hsl(295.4,16%,15.9%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 4rem;
+    font-family: 'overpass'
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+}
+h3
+{
+    font-size: 1,5rem;
+    font-weight: 600;
 }
 p
 {
