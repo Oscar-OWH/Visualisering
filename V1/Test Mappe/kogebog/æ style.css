@@ -1,0 +1,55 @@
+header
+{
+    text-decoration: none;
+    color: hsl(209.4,75.4%,60.2%);
+    background-color: hsl(271.8,13.8%,24.1%);
+}
+header a
+{
+    color: hsl(172.5,85.2%,37.1%);
+    text-decoration: none;
+    
+}
+body
+{   text-decoration: none;
+    text-align: center;
+    font-family: 'Comfortaa';
+    color: hsl(238.2,24.8%,26.1%);
+    background-color: hsl(0,0%,100%);
+}
+h1
+{
+    color: hsl(203.6,100%,78%);
+}
+main a
+{
+    color: hsl(341.9,68.8%,45.3%);
+}
+section h2, article h3,footer h3, footer a, h1, header a, main a
+{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+main section a
+{
+    font-size: 20px;
+    color: hsl(169.6,17.3%,26.1%);
+}
+main article a 
+{
+    font-size: initial;
+    color: hsl(341.9,68.8%,45.3%);
+}
+footer
+{
+    color: hsl(209.4,75.4%,60.2%);
+    background-color: hsl(271.8,13.8%,24.1%);
+}
+footer a
+{
+    color: hsl(344.7,84.3%,62.5%);
+}
+footer p
+{
+    /* text-decoration: line-through; */
+}
