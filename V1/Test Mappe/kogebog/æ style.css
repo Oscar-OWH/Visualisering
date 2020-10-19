@@ -1,4 +1,9 @@
-
+*
+/* root reset (does so defualt margin/paddings are)  */
+ {
+     margin: 0;
+     padding: 0;
+ }
 /* Header seletors */
 
 header
