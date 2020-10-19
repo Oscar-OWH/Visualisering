@@ -1,8 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body /* alt tekst inde for body har den her farve.*/
 {
     background-color: hsl(0,0%,100%);
     font-family: 'Work Sans';
     font-weight: 400;
+    line-height: 1.8rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+body header, body footer
+{
+ text-transform: capitalize;
+ height: 50px;
+ text-align: center;
+ line-height: 50px;
+}
+
+body main
+{
+    width: 1000px;
+    margin: 0 auto
 }
 
 nav /* baggrunden af navigation bliver lavet til den her farve.*/
@@ -23,17 +45,24 @@ a
     color: hsl(17.9,89.5%,62.5%);
     text-decoration: none;
 } 
+img
+{
+    min-width: 300px;
+    padding-left: 35%;
+    border-radius: 10px;
+}
 h1,h2,h3 /*gøre at h1 h2 h3 er den farve.. brugte h3 i stedet for h2 til nogle overtekster.*/
 {
     color: hsl(295.4,16%,15.9%);
     line-height: 4rem;
+    margin: 20px 0;
     font-family: 'overpass'
 }
 h1
 {
     font-size: 3rem;
     font-weight: 700;
-    
+    text-align: center;
 }
 h2
 {
@@ -47,10 +76,13 @@ h3
 }
 p
 {
-    color: hsl(271.8,13.8%,24.1%); 
+    color: hsl(271.8,13.8%,24.1%);
+    margin-bottom: 40px; 
 }
 
 ul /*gøre af dutterne ud fra listen er en vise farve*/
 {
     color:hsl(312.9,25.5%,21.6%);
+    list-style-position: inside;
+    margin-bottom: 40px;
 }
