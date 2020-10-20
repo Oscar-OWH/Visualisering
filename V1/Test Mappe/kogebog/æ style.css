@@ -4,7 +4,8 @@
      margin: 0;
      padding: 0;
  }
-/* Header seletors */
+
+ /* Header seletors */
 
 header
 /* changes background and text colour in header  */
@@ -20,7 +21,20 @@ header a
     text-decoration: none;
 }
 
-/* body & main seletors */
+header h1
+/* welcoming text */
+{
+    color: hsl(203.6,100%,78%);
+    padding: 2pc;
+}
+
+header p
+ /* gøre at Om mæ er længere nede  */
+{
+    padding-bottom: 1pc;
+}
+
+/* body */
 
 body
 /* Setting text font & colour + text align defualt, and background colour*/
@@ -29,45 +43,93 @@ body
     font-family: 'Comfortaa';
     color: hsl(238.2,24.8%,26.1%);
     background-color: hsl(0,0%,100%);
+    line-height: 1.7pc;
 }
 
-h1
-/* welcoming text */
-{
-    color: hsl(203.6,100%,78%);
-}
-
-
-main a
-/* changes link colour in "om mæ" & "most of Æ oversigt" and all food links*/
-{
-    color: hsl(341.9,68.8%,45.3%);
-}
-
-main section a
-/* makes chapter links bigger and another colour */
-{
-    font-size: 20px;
-    color: hsl(169.6,17.3%,26.1%);
-}
-
-main article a 
-/* makes sure links are returned to original after code above. */
-{
-    font-size: initial;
-    color: hsl(341.9,68.8%,45.3%);
-}
-
-/* Footer and ending of Main tags */
-
-section h2, article h3,footer h3, footer a, h1, header a, main a
+section h2, article h3,footer h3, footer a, h1, header a, main a, nav h2
 /* makes sure no links or chapter has decoration and capitalizes them. */
 {
     text-transform: capitalize;
     text-decoration: none;
 }
 
+/* main seletors */
+
+main
+{
+   padding-top: 1pc;
+   padding-bottom: 2pc;
+}
+main h2
+/* gør at header og main ikke er så tæt på  */
+{
+    margin-top: 1.5pc;
+}
+
+main section h2
+/* gøre tekst i kapitlerne passe i deres oversteger */
+{
+    margin-top: 0.1pc;
+}
+
+main article h3 
+/* små kapitlers opdeling */
+{
+    padding-top: 1.5pc;
+}
+
+main section img
+/* gør at img har luft for oven */
+{
+    padding-top: 1pc;
+    
+}
+
+/* Nav i Main */
+
+ main nav p
+/* gør af "teksten under Æ oversigt har luft + forstørret og farve*/
+{
+     padding-bottom: 1pc;
+     color: hsl(271.8,13.8%,24.1%);
+     font-size: 20px;
+}
+
+main nav section a
+/*  gør af kapitlerne i Æ oversigt er en anden farve */
+{
+    color: hsl(169.6,17.3%,26.1%);
+    
+}
+
+main a, main nav article p a
+/* changes link colour in "om mæ" & "most of Æ oversigt" and all food links*/
+{
+    color: hsl(341.9,68.8%,45.3%);
+   
+}
+
+main nav section p
+/* gør kapitel link en anden farve og større */
+{
+    font-size: 20px;
+    padding-bottom: initial;
+}
+
+main article a 
+/* gør links tilbage som de var + giver padding */
+{
+    font-size: initial;
+    color: hsl(341.9,68.8%,45.3%);
+    padding: 10px;
+}
+
 /* Footer */
+
+footer p
+{
+    padding-top: 0.5pc;
+}
 
 footer
 /* Changes text and background of footer tags */
