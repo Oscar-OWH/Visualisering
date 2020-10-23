@@ -27,17 +27,63 @@ body main
     margin: 0 auto
 }
 
+.headquote
+{
+    background-color: hsla(0, 0%, 0%, 0.1);
+    margin: 0.5rem 0rem;
+    padding: 0.3rem;
+    font-style: italic;
+    font-size: 20px;
+    border: 0px;
+    border-left: 2px;
+    border-left-color: gray;
+    border-style: solid;
+}
+.headquote p
+{
+margin: 1rem 0rem;
+}
+.quote
+{
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-style: italic;
+    border: 0px;
+    border-left: 1px;
+    border-left-color: gray;
+    border-style: solid;
+}
+.quote p
+{
+    margin: 1rem 0rem;
+}
 nav /* baggrunden af navigation bliver lavet til den her farve.*/
 {
     background-color: hsl(238.2,24.8%,26.1%);
 }
 
-nav a /*alle links under <nav>-taget har den her farve og har ingen understreg*/
+nav ul
+{
+    list-style-type: none;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0 5%;
+}
+nav ul li:hover
+{
+    background-color: hsl(226,40.7%,50.4%);
+}
+
+nav li a /*alle links under <nav>-taget har den her farve og har ingen understreg*/
 {
     color: hsl(203.6,100%,78%);
     text-decoration: none;
-    font-size: larger;
+    font-size: 20px;
     font-family: monospace;
+    
 }
 
 a 
