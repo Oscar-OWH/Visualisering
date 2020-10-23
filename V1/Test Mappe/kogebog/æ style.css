@@ -21,12 +21,6 @@ header a
     text-decoration: none;
 }
 
-header h1
-/* welcoming text */
-{
-    color: hsl(203.6,100%,78%);
-    padding: 2pc;
-}
 
 header p
  /* gøre at Om mæ er længere nede  */
@@ -54,6 +48,19 @@ section h2, article h3,footer h3, footer a, h1, header a, main a, nav h2
 }
 
 /* main seletors */
+
+.Forside-H1
+/* welcoming text */
+{
+    color: hsl(203.6,100%,78%);
+    padding: 2pc;
+}
+
+.Kapitellink
+/*  gør af kapitlerne i Æ oversigt er en anden farve */
+{
+    color: hsl(169.6,17.3%,26.1%);
+}
 
 main
 {
@@ -93,13 +100,6 @@ main section img
      padding-bottom: 1pc;
      color: hsl(271.8,13.8%,24.1%);
      font-size: 20px;
-}
-
-main nav section a
-/*  gør af kapitlerne i Æ oversigt er en anden farve */
-{
-    color: hsl(169.6,17.3%,26.1%);
-    
 }
 
 main a, main nav article p a
