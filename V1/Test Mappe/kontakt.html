@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>H.C. Andersen's eventyr og historier</title>
+</head>
+<body>
+    <header>
+        <nav> <!--Navigation til og fra andre sider-->
+            <ul>
+                <li>
+                    <a href="index.html">forside</a>
+                    </li>
+                    <li>
+                    <a href="baggrund.html">baggrund</a>
+                    </li>
+                    <li>
+                    <a href="bibliografi.html">bibliografi</a>
+                    </li>
+                    <li>
+                    <a href="genere og tematikker.html">genere og tematikker</a>
+                    </li>
+                    <li>
+                    <a href="kontakt.html">Kontakt os</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Kontakt os</h1>
+        <form action="landingkontakt.html" method="GET">
+            <p><label class="konlab">Fornavn:</label><input type="text" name="Fornavn" placeholder=" intast dit fornavn" required></p>
+            <p><label class="konlab">Efternavn:</label> <input type="text" name="Efternavn" placeholder=" intast dit efternavn" required></p>
+            <p><label class="konlab">Køn</label></p>
+            <span class="spam-ha-hun">
+                <label for="han">han</label>
+                <input id="han" type="radio" name="kon" value="han">
+            </span>
+            <span class="spam-ha-hun">
+                <label for="hun">hun</label>
+                <input id="hun" type="radio" name="kon" value="hun">
+            </span>
+            <span class="spam-ha-hun">
+                <label for="andet">andet</label>
+                <input id="andet" type="radio" name="kon" value="andet">
+            </span>
+                <p class="it-go-down">
+                    <span>
+                        <label class="konlab" for="klager">Klager</label>
+                        <select name="klagetyper" id="klager">
+                            <option value="Ingen">Ingen</option>
+                            <option value="Visual-Glitch">Visual Glitch</option>
+                            <option value="Tekst-fejl">Tekst fejl</option>
+                            <option value="Spørgsmål">Spørgsmål</option>
+                            <option value="Holdning">Holdning</option>
+                            <option value="Andet">Andet</option>
+                        </select>
+                    </span>
+                </p>
+
+           
+            
+            
+
+            
+
+            <h3><label>besked</label></h3>
+            <textarea name="besked" id="beskedkon" cols="30" rows="10" placeholder="skriv din besked her" required></textarea>
+            <p><input class="konsub" type="submit" name="submit" value=" indsend"></p>
+            <!-- <button type="submit" name="submit">ind send</button> -->
+        </form>
+
+    </main>
+
+    <footer>
+        <nav> <!--Navigation til og fra andre sider-->
+            <ul>
+                <li>
+                    <a href="index.html">forside</a>
+                    </li>
+                    <li>
+                    <a href="baggrund.html">baggrund</a>
+                    </li>
+                    <li>
+                    <a href="bibliografi.html">bibliografi</a>
+                    </li>
+                    <li>
+                    <a href="genere og tematikker.html">genere og tematikker</a>
+                    </li>
+                    <li>
+                    <a href="kontakt.html">Kontakt os</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

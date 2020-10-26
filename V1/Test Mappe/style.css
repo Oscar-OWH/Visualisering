@@ -86,6 +86,83 @@ nav li a /*alle links under <nav>-taget har den her farve og har ingen understre
     
 }
 
+form
+{
+   text-align: center;
+   
+}
+input
+{
+    padding-right: 10px;
+    outline-color: hsl(226,40.7%,50.4%);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    border-color: hsl(238.2,24.8%,26.1%);
+}
+.konlab
+{
+    display: inline-block; 
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+  
+}
+.spam-ha-hun
+{
+    display: inline-block; 
+    width: 100px;
+    vertical-align: top;
+    background-color: hsl(238.2,24.8%,26.1%);
+    color: hsl(203.6,100%,78%);
+    border: solid;
+    border-color: hsl(203.6,100%,78%);
+}
+.spam-ha-hun:hover
+{
+    background-color:  hsl(226,40.7%,50.4%);
+}
+.konsub
+{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: hsl(238.2,24.8%,26.1%);
+    color: hsl(203.6,100%,78%);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    border: solid;
+    border-color: hsl(203.6,100%,78%);
+}
+.konsub:hover
+{
+ background-color:  hsl(226,40.7%,50.4%);
+}
+.it-go-down
+{
+    padding-top: 2pc;
+}
+textarea
+{
+    width: 500px;
+    height: 250px;
+    outline-color: hsl(226,40.7%,50.4%);
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    border-color: hsl(238.2,24.8%,26.1%);
+}
+
+option, select
+{
+    width: 170px;
+    height: 25px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    border-color: hsl(238.2,24.8%,26.1%);
+}
 a 
 {
     color: hsl(17.9,89.5%,62.5%);
