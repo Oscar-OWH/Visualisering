@@ -1,0 +1,104 @@
+*  /* Root reset */
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header
+{
+    background-color: hsl(17.9,89.5%,62.5%);
+}
+header img
+{
+    display: none;
+}
+
+main p
+{
+ margin: 0.8rem;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+nav ul, nav li,nav
+{
+    display: none;
+}
+
+.Icon-i-nav1
+{
+    width: 30px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+@media only screen and (min-width: 500px)
+{
+    .Icon-i-nav1
+    {
+        display: none;       
+    }
+
+    header 
+    {
+        background-color: white
+    }
+
+    header img
+    {
+        display: block;
+    }
+    nav
+    {
+        background-color: hsl(152.3,72.5%,42.7%);
+        display: block;
+    }
+    
+    nav ul
+    {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+    }
+    nav ul li
+    {
+        display: inline-block;
+        padding: 0 5%;
+    }
+    nav ul li:hover
+    {
+        background-color: hsl(98.9,61.3%,63.5%);
+    }
+    
+    nav li a
+    {
+        color: hsl(288.8,8.6%,36.5%);
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        line-height: 50px;
+        height: 50px;
+        
+    }
+
+    .No-show
+    {
+        display: none;
+    }
+    main
+    {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+}
